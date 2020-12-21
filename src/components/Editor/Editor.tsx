@@ -10,11 +10,11 @@ export function Editor(props: EditorPropsType) {
 
    return (
       <div className={s.markdownEditor}>
+         <div className={s.title}>Markdown Editor</div>
          <textarea id='editor'
                    className={s.editor}
                    onChange={props.changeText}
-                   value={props.text}
-         />
+                   value={props.text}/>
       </div>
    );
 }

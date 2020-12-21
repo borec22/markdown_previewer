@@ -1,12 +1,10 @@
 .App {
    display: grid;
-   grid-template-columns: 6fr 6fr;
-   min-height: 100vh;
-   max-width: 1200px;
-   margin: 0 auto;
-   /*border: 1px solid red;*/
+
+   max-width: 1250px;
+   height: 100%;
+   grid-template-columns: 600px 600px;
 }
 body {
    background-color: #f1f1f1;
 }
-
