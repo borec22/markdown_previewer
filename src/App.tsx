@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {ChangeEvent, useState} from 'react';
 import './App.css';
+import {Preview} from './components/Preview/Preview';
+import {Editor} from './components/Editor/Editor';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   const [editorText, setEditorText] = useState<string>('');
+
+   const changeEditorText = (e: ChangeEvent<HTMLTextAreaElement>) => setEditorText(e.currentTarget.value);
+
+   return (
+      <div className="App">
+         <Editor changeText={changeEditorText} text={editorText}/>
+         <Preview text={editorText} />
+      </div>
+   );
 }
 
 export default App;
+

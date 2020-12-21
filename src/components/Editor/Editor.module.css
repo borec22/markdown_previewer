@@ -1,0 +1,17 @@
+.markdownEditor {
+   /*border: 1px solid red;*/
+}
+.editor {
+   font-size: 20px;
+   line-height: normal;
+
+   overflow: hidden;
+
+   box-sizing: content-box;
+   width: 100%;
+   height: 100%;
+   padding: 10px 10px;
+}
+.editor:focus {
+   outline: 0;
+}

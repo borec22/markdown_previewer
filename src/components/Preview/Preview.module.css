@@ -1,0 +1,22 @@
+.markdownPreview {
+   /*border: 1px solid red;*/
+}
+
+.preview {
+   font-size: 20px;
+   line-height: normal;
+
+   overflow: auto;
+
+   max-width: 550px;
+   height: 100%;
+   margin-left: 20px;
+   padding: 10px 10px;
+
+   resize: both;
+   white-space: pre-line;
+   word-wrap: break-word;
+
+   border: 1px solid gray;
+   background-color: white;
+}
