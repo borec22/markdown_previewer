@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/https//borec22.github.io/markdown_previewer/static/css/main.2f242ec1.chunk.css",
-    "main.js": "/https//borec22.github.io/markdown_previewer/static/js/main.bad03538.chunk.js",
-    "main.js.map": "/https//borec22.github.io/markdown_previewer/static/js/main.bad03538.chunk.js.map",
-    "runtime-main.js": "/https//borec22.github.io/markdown_previewer/static/js/runtime-main.5c838c3d.js",
-    "runtime-main.js.map": "/https//borec22.github.io/markdown_previewer/static/js/runtime-main.5c838c3d.js.map",
-    "static/js/2.1bc1555d.chunk.js": "/https//borec22.github.io/markdown_previewer/static/js/2.1bc1555d.chunk.js",
-    "static/js/2.1bc1555d.chunk.js.map": "/https//borec22.github.io/markdown_previewer/static/js/2.1bc1555d.chunk.js.map",
-    "static/js/3.727a5b93.chunk.js": "/https//borec22.github.io/markdown_previewer/static/js/3.727a5b93.chunk.js",
-    "static/js/3.727a5b93.chunk.js.map": "/https//borec22.github.io/markdown_previewer/static/js/3.727a5b93.chunk.js.map",
-    "index.html": "/https//borec22.github.io/markdown_previewer/index.html",
-    "static/css/main.2f242ec1.chunk.css.map": "/https//borec22.github.io/markdown_previewer/static/css/main.2f242ec1.chunk.css.map",
-    "static/js/2.1bc1555d.chunk.js.LICENSE.txt": "/https//borec22.github.io/markdown_previewer/static/js/2.1bc1555d.chunk.js.LICENSE.txt"
+    "main.css": "/markdown_previewer/static/css/main.2f242ec1.chunk.css",
+    "main.js": "/markdown_previewer/static/js/main.bad03538.chunk.js",
+    "main.js.map": "/markdown_previewer/static/js/main.bad03538.chunk.js.map",
+    "runtime-main.js": "/markdown_previewer/static/js/runtime-main.b179a148.js",
+    "runtime-main.js.map": "/markdown_previewer/static/js/runtime-main.b179a148.js.map",
+    "static/js/2.1bc1555d.chunk.js": "/markdown_previewer/static/js/2.1bc1555d.chunk.js",
+    "static/js/2.1bc1555d.chunk.js.map": "/markdown_previewer/static/js/2.1bc1555d.chunk.js.map",
+    "static/js/3.727a5b93.chunk.js": "/markdown_previewer/static/js/3.727a5b93.chunk.js",
+    "static/js/3.727a5b93.chunk.js.map": "/markdown_previewer/static/js/3.727a5b93.chunk.js.map",
+    "index.html": "/markdown_previewer/index.html",
+    "static/css/main.2f242ec1.chunk.css.map": "/markdown_previewer/static/css/main.2f242ec1.chunk.css.map",
+    "static/js/2.1bc1555d.chunk.js.LICENSE.txt": "/markdown_previewer/static/js/2.1bc1555d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c838c3d.js",
+    "static/js/runtime-main.b179a148.js",
     "static/js/2.1bc1555d.chunk.js",
     "static/css/main.2f242ec1.chunk.css",
     "static/js/main.bad03538.chunk.js"
