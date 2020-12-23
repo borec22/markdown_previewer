@@ -2,6 +2,7 @@ import React, {ChangeEvent, useState} from 'react';
 import './App.css';
 import {Preview} from './components/Preview/Preview';
 import {Editor} from './components/Editor/Editor';
+import {Box, Container, Grid} from '@material-ui/core';
 
 function App() {
    let defaultText = `# Welcome to my React Markdown Previewer!
@@ -55,8 +56,16 @@ And here. | Okay. | I think we get it.
 
    return (
       <div className="App">
-         <Editor changeText={changeEditorText} text={editorText}/>
-         <Preview text={editorText} />
+         <Container fixed maxWidth="lg">
+            <Grid container spacing={3}>
+               <Grid item xs={8} style={{margin: '0 auto'}}>
+                  <Editor changeText={changeEditorText} text={editorText}/>
+               </Grid>
+               <Grid item xs={12} style={{marginBottom: '50px'}}>
+                  <Preview text={editorText}/>
+               </Grid>
+            </Grid>
+         </Container>
       </div>
    );
 }

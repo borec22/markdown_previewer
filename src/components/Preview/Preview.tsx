@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Preview.module.css';
 import marked from 'marked';
+import {Box, Typography} from '@material-ui/core';
 
 type propsType = {
    text: string
@@ -14,7 +15,11 @@ export function Preview(props: propsType) {
 
    return (
       <div className={s.markdownPreview}>
-         <div className={s.title}>Markdown Preview</div>
+         <Typography variant="h6">
+            <Box textAlign='center' fontWeight='fontWeightBold' mt={2}>
+               Markdown Preview
+            </Box>
+         </Typography>
          <div id='preview' className={s.preview} dangerouslySetInnerHTML={getMarkdownText()}/>
       </div>
    );

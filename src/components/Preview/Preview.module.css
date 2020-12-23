@@ -1,24 +1,21 @@
-.markdownPreview {
-
-}
-
 .preview {
    font-size: 14px;
    line-height: normal;
 
-   overflow: auto;
-   border: 1px solid gray;
-
    padding: 10px 10px;
-
+   min-height: 300px;
+   min-width: 350px;
    letter-spacing: 2px;
    word-wrap: break-word;
 
+   border: 1px solid gray;
    background-color: white;
 }
 
 .title {
-   text-align: center;
-   color: #423C3C;
    font-weight: bolder;
+
+   text-align: center;
+
+   color: #423c3c;
 }
